@@ -1,0 +1,93 @@
+:root {
+  --blueDark: #1565c0;
+  --blueLight: #42a5f5;
+  --dark: #263238;
+  --grey: #607d8b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+
+h1,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+/* BIO SECTION */
+.bio {
+  background-color: var(--dark);
+
+  padding: 40px 20px;
+}
+
+.firstName,
+.lastName {
+  font-size: 2.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.roleTitle {
+  text-transform: uppercase;
+  padding: 8px 0;
+  font-size: 1.1rem;
+}
+
+.desc {
+  padding-top: 10px;
+}
+
+/* ACADEMIC HISTORY SECTION */
+.acaHistory {
+  padding: 30px;
+  background-color: var(--blueDark);
+  line-height: 1.5rem;
+}
+
+li {
+  list-style: none;
+  padding: 20px 40px;
+}
+
+.location {
+  font-size: 0.75rem;
+  padding-left: 6px;
+}
+
+.date {
+  background-color: var(--grey);
+  display: inline;
+  padding: 4px;
+}
+
+/* WORK EXPERIENCE SECTION */
+.workExp {
+  padding: 30px;
+  background-color: var(--blueLight);
+  line-height: 1.5rem;
+}
+
+/* EXTENSION TASK */
+.layout {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.workExp-extension {
+  background-color: var(--grey);
+  padding: 30px;
+  line-height: 1.5rem;
+}
+
+.date-extension {
+  background-color: whitesmoke;
+  display: inline;
+  padding: 4px;
+  color: var(--dark);
+}
